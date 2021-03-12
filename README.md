@@ -15,3 +15,9 @@ npm i cors
 ```
 nodemon app
 ```
+
+## Recontruir modulos de Node
+
+```
+npm instal
+```
