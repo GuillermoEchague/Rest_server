@@ -31,12 +31,15 @@ npm instal
 ```
 git tag -a v1.0.0 -m "Inicio WebServer"
 git push --tags
+git rm .env --cached (Borrar seguimiento)
 ```
 
 ## Subir a Heroku
 
 ```
 heroku git:remote -a restserver001node
+
+
 git branch
 git push heroku main
 ```
