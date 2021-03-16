@@ -43,6 +43,17 @@ heroku git:remote -a restserver001node
 git branch
 git push heroku main
 ```
+
+## Crear, borrar variables de entorno Heroku
+```
+heroku --version
+heroku config
+heroku config:set nombre="Guillermo"
+heroku config:unset nombre
+
+
+
+```
 ## Producción
 
 ```
