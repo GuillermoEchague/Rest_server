@@ -10,7 +10,7 @@ npm i cors
 npm i mongoose
 npm i bcryptjs
 npm i express-validator
-
+npm i jsonwebtoken
 ```
 
 
@@ -23,7 +23,7 @@ nodemon app
 ## Recontruir modulos de Node
 
 ```
-npm instal
+npm install
 ```
 
 ## Generar Tags del proyecto
@@ -39,21 +39,20 @@ git rm .env --cached (Borrar seguimiento)
 ```
 heroku git:remote -a restserver001node
 
+# Repetir proceso luego de cambio en el proyecto
 
 git branch
 git push heroku main
 ```
 
-## Crear, borrar variables de entorno Heroku
+## Crear - borrar variables de entorno Heroku
 ```
 heroku --version
 heroku config
 heroku config:set nombre="Guillermo"
 heroku config:unset nombre
-
-
-
 ```
+
 ## Producción
 
 ```
