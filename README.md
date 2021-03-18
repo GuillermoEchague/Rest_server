@@ -67,3 +67,10 @@ heroku logs -n 100 --tail
 ```
 https://restserver001node.herokuapp.com/
 ```
+
+## Documentación Postman
+
+```
+https://documenter.getpostman.com/view/7460598/Tz5tZGcw
+
+```
