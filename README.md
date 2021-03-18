@@ -11,6 +11,7 @@ npm i mongoose
 npm i bcryptjs
 npm i express-validator
 npm i jsonwebtoken
+npm install google-auth-library --save
 ```
 
 
@@ -46,6 +47,7 @@ git push heroku main
 ```
 
 ## Crear - borrar variables de entorno Heroku
+
 ```
 heroku --version
 heroku config
@@ -53,7 +55,14 @@ heroku config:set nombre="Guillermo"
 heroku config:unset nombre
 ```
 
-## Producción
+## Logs en heroku
+
+````
+heroku logs -n 100 -a
+heroku logs -n 100 --tail
+```
+
+## Producción 
 
 ```
 https://restserver001node.herokuapp.com/
