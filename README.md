@@ -32,6 +32,16 @@ npm install
 ```
 git tag -a v1.0.0 -m "Inicio WebServer"
 git push --tags
+
+# delete local tag 'v1.0.0'
+git tag -d v1.0.0
+# delete remote tag 'v1.0.0' (eg, GitHub version too)
+git push origin :refs/tags/v1.0.0
+
+# alternative approach
+git push --delete origin tagName
+git tag -d tagName
+
 git rm .env --cached (Borrar seguimiento)
 ```
 
@@ -72,5 +82,15 @@ https://restserver001node.herokuapp.com/
 
 ```
 https://documenter.getpostman.com/view/7460598/Tz5tZGcw
-
 ```
+
+## {REST}  (Representational State Transfer)
+
+Es un estilo de **arquitectura para servicios web** creado en el año 2000 por Roy Fielding
+
+![](img/Rest.png)
+
+
+## Modelo BD
+
+![](img/BD.png)
